@@ -2,8 +2,7 @@ require('core-js/stable')
 require('@babel/runtime-corejs3/regenerator')
 require('../../register-tests')
 
-const {assert} = require('webrain/dist/js/main/common/test/Assert')
-const {unhandledErrors, exit} = require('webrain/dist/js/main/common/test/unhandledErrors')
+const {assert, unhandledErrors, exit} = require('webrain')
 
 unhandledErrors((...args) => {
 	console.error(...args)
