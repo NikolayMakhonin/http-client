@@ -5,9 +5,8 @@ register(babelrc)
 
 require('../../register-tests')
 
-const {assert} = require('webrain/src/main/common/test/Assert')
 // eslint-disable-next-line no-unused-vars
-const {unhandledErrors, exit} = require('webrain/src/main/common/test/unhandledErrors')
+const {assert, unhandledErrors, exit} = require('webrain')
 
 unhandledErrors((...args) => {
 	console.error(...args)
