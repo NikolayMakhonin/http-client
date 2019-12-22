@@ -13,7 +13,6 @@
     "dist/**",
     "env/mocha/*"
   ],
-  "types": "dist/types/browser/index.d.ts",
   "main": "dist/js/main/browser/index.js",
   "jsnext:main": "dist/mjs/main/browser/index.js",
   "module": "dist/mjs/main/browser/index.js",
@@ -140,6 +139,6 @@
     "assertion-error": ">=1.0.2"
   },
   "dependencies": {
-    "webrain": "^0.0.3"
+    "webrain": "file:../webrain"
   }
 }

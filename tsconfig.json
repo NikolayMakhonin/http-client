@@ -10,7 +10,8 @@
 		"allowSyntheticDefaultImports": true,
 		"paths": {
 			"*" : ["node_modules/*"]
-		}
+		},
+        "moduleResolution": "node"
 	},
 	"include": [
 		"src/main/**/*.ts"
