@@ -304,7 +304,7 @@ function configDetectBrowsers(config) {
 
 						return availableBrowser
 					})
-					.concat('Electron')
+					// .concat('Electron')
 			}
 		},
 
