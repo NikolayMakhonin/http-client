@@ -85,7 +85,7 @@
     "core-js": "^3.6.0",
     "core-js-pure": "^3.6.0",
     "depcheck": "^0.8.4",
-    "electron": "^6.1.7",
+    "electron": "^9.1.0",
     "eslint": "6.1.0",
     "eslint-config-pro": "^0.0.4",
     "eslint-plugin-html": "^6.0.0",
